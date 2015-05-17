@@ -23,6 +23,6 @@
   
 #### Starting the server:
   - npm start
-    - If the above command fails, it means that few global depencies are missing. 
+    - If the above command fails, it means that a few global dependencies are missing. 
     - Find the name of the dependency from the error message, and install it using:
       - npm install -g ${dependency}.
