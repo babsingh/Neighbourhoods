@@ -1,0 +1,15 @@
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center !important;
+}
+
+label, p {
+  font-size:18px;
+}
+
+textarea {
+    max-width: 550px;
+    max-height: 500px;
+}
