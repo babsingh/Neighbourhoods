@@ -1,8 +1,10 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var Location = new Schema({
-	name: String
+var Element = new Schema({
+	location: String,
+	indicator: String,
+	value: String
 });
 
-mongoose.model('Location', Location);
+mongoose.model('Element', Element);
